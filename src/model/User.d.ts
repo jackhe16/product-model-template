@@ -1,6 +1,3 @@
-import EnumSex from '../enum/EnumSex';
-import CreditCard from './CreditCard';
-
 /**
  * 用户
  */
@@ -13,10 +10,9 @@ interface User {
     Sex: EnumSex;
     /** 年龄 */
     Age?: number;
+    Birthday: datetime;
     /**
      * 关联的多张信用卡
      */
     CreditCards: CreditCard[];
 };
-
-export default User;

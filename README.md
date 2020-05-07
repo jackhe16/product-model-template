@@ -20,5 +20,8 @@ yarn build:pdf
 * 基本数据类型: string, number, boolean, datetime
 
 ## 约定
-* 一个type或enum定义对应一个文件, 文件以.ts结尾
+* 一个type或enum定义对应一个文件, 文件以.d.ts结尾
 * [typedoc](https://github.com/TypeStrong/TypeDoc)注释
+
+## 示例
+* 见[`src/`](/src)
