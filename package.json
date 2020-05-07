@@ -1,0 +1,14 @@
+{
+  "name": "product-model-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jackhe16/product-model-template.git",
+  "author": "jackhe16 <jackhe16@126.com>",
+  "license": "MIT",
+  "dependencies": {
+    "pdfkit": "^0.11.0"
+  },
+  "scripts": {
+    "build:pdf": "node scripts/build-pdf.js"
+  }
+}
