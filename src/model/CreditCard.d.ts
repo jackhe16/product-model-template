@@ -1,11 +1,7 @@
 /**
  * 信用卡
  */
-interface CreditCard {
-    /** UUID */
-    UUID: string;
-    /** 卡号 */
-    No: string;
+interface CreditCard extends Card {
     /** 所属用户 */
     User: User;
 };
